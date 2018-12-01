@@ -56,5 +56,20 @@ fetch('https://lit-fortress-6467.herokuapp.com/object')
 
 
     });
+let newPost = {
+    title: "hello world",
+    body: "that's really something"
+}
+
+// fetch(, {
+//     method: 'post',
+//     body: JSON.stringify(newPost)
+// })
+//     .then(function (response) {
+//         return response.json()
+//     })
+//     .then(function(data) {
+//         console.log('post request response data', data)
+//     })
 
 
